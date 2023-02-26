@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    background-color: rgb(246, 248, 250);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-header-section {
+    margin: 0 7.5vw;
+}
+
+.navbar-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0em;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+li a {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navbar-logo img {
+    scale: 0.7;
+}
+
+.navbar-link {
+    position: relative;
+    right: 10rem;
+}
+
+.navbar-logo {
+    position: relative;
+    left: 4rem;
+}
+
+.heading-section {
+    width: 45rem;
+    /* height: 31.5rem; */
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+}
+
+.heading-section h1 {
+    font-size: 4.5rem;
+}
+
+.discription-box {
+    width: 25rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.learn-more {
+    background-color: rgb(102, 99, 232);
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #fff;
+    padding: 0.6em 1.5em;
+    margin-top: 2.5rem;
+    border: none;
+    border-radius: 1.5em;
+}
+
+/*   Multiple Logo Section   */
+
+.multiple-logo-section {
+    background-color: #fff;
+    display: flex;
+    width: 95%;
+    height: 12rem;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0 2.5%;
+    border-radius: 2rem;
+    position: relative;
+    top: -6rem;
+    z-index: 1;
+}
+
+.second-section-heading {
+    /* margin-top: 1rem; */
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.main-card-section {
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    position: relative;
+}
+
+.card {
+    width: 23.125rem;
+    height: 450px;
+    position: relative;
+}
+
+.image-card img {
+    width: 370px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+.price-box {
+    width: 85%;
+    margin: 0 7.5%;
+    background-color: #fff;
+    border-radius: 25px;
+    bottom: -40;
+    top: -4.5rem;
+    position: relative;
+}
+
+.price {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.price button {
+    background-color: rgb(102, 99, 232);
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #fff;
+    padding: 0.6em 1.5em;
+    border: none;
+    border-radius: 1.5em;
+}
+
+.price p {
+    color: rgb(102, 99, 232);
+    font-weight: 800;
+    font-size: 1.1em;
+    line-height: 50px;
+}
+
+.main-card-section .card:nth-child(2) {
+    margin-top: 40px;
+}
+
+.main-card-section div:nth-child(3) {
+    margin-top: 80px;
+}
+
+.main-card-section div:nth-child(4) {
+    margin-top: 80px;
+}
+
+.main-card-section div:nth-child(5) {
+    margin-top: 40px;
+}
+
+.main-card-section div:nth-child(8) {
+    margin-top: 40px;
+}
+
+.main-card-section div:nth-child(9) {
+    margin-top: 80px;
+}
+
+/* Third main Section */
+
+.third-section {
+    height: 28rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 6rem;
+}
+
+.feature-bg {
+    width: 550px;
+    position: relative;
+}
+
+.feature-img {
+    width: 330px;
+    height: 327px;
+    border-radius: 30px;
+}
+
+.left-section div:nth-child(2) {
+    position: relative;
+    top: -412px;
+    left: 77px;
+}
+
+.right-section {
+    width: 80%;
+    height: 28rem;
+    display: grid;
+    place-content: center;
+}
+
+.description-section-rightSide+h1 {
+    font-size: 4.1rem;
+    font-weight: 900;
+}
+
+.description-section-rightSide,
+p {
+    font-size: 1.1rem;
+}
+
+.early-button {
+    background-color: rgb(102, 99, 232);
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #fff;
+    padding: 0.6em 1.5em;
+    border: none;
+    border-radius: 1.5em;
+    margin-top: 2rem;
+}
+
+/*  fourth main feature section */
+
+.feature-main-section {
+    height: 28rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 6rem;
+}
+
+.feature-heading-section {
+    height: 28rem;
+    display: grid;
+    place-content: center;
+    margin-left: 4.5rem;
+}
+
+.feature-heading-box>h1 {
+    font-size: 4.1rem;
+    font-weight: 900;
+    width: 90%;
+}
+
+.feature-heading-box,
+p {
+    font-size: 1.1rem;
+    width: 88%;
+    margin-top: 0.8rem;
+}
+
+.right-section-img {
+    display: grid;
+    place-content: end;
+}
+
+.feature-right-img {
+    position: relative;
+    top: -408px;
+    right: -142px;
+}
+
+/* Subscribe & Newsletter section*/
+
+.main-section-newsletter {
+    width: 90%;
+    height: 75vh;
+    margin: 4rem 5%;
+    background-color: rgb(102, 99, 232);
+    border-radius: 70px;
+    color: #fff;
+}
+
+.button-newsletter {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 2rem;
+}
+
+.button {
+    background-color: rgb(79, 77, 182);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1.2rem;
+    padding-right: 2rem;
+    border-radius: 50px;
+    gap: 1.1rem;
+}
+
+.email {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.2rem;
+}
+
+.subscribe-button {
+    background-color: #fff;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgb(102, 99, 232);
+    padding: 1.2rem 1.5em;
+    border: none;
+    border-radius: 1.5em;
+}
+
+.heading-newsletter>h1 {
+    font-size: 4rem;
+    margin-bottom: 1.8rem;
+}
+
+.heading-newsletter,
+h4 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-weight: 300;
+}
+
+.newsletter-section {
+    display: grid;
+    place-items: center;
+    padding: 5rem 0;
+}
+
+/* footer main section */
+
+.main-section-footer {
+    display: grid;
+    grid-template-columns: 60% 1fr 1fr 1fr;
+    width: 90%;
+    height: 50vh;
+    margin: 0 5%;
+    margin-top: 8rem;
+    line-height: 1.7rem;
+}
+
+.logo-section-footer {
+    line-height: 2rem;
+}
+
+.social-media-icon {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.copyright,
+p {
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.location,
+.contact,
+.legal {
+    position: relative;
+    right: -50px;
+}
